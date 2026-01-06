@@ -1,0 +1,98 @@
+SLIDE 1: JUDUL
+==================================================
+Neuga AI: Masa Depan Interaksi Cerdas
+Real-Time, Responsif, dan Aman
+
+Diajukan oleh Kelompok Pengembang Universitas Gunadarma
+
+
+SLIDE 2: TIM PENGEMBANG
+==================================================
+Kami adalah tim yang berdedikasi untuk menghadirkan solusi AI terbaik:
+
+1. Amanda Fitri Octaryana
+2. Ebiet Fitranda
+3. Hendaru Jatiyudha Sriyono
+4. Mohammad Raditya Nugroho
+5. Nafisa Nurkania
+6. Muhammad Fahreza Syakir
+7. Muhammad Kaloka Jati
+8. Reynaldo Pare Biu
+
+
+SLIDE 3: LATAR BELAKANG MASALAH
+==================================================
+- Keterbatasan AI Tradisional: Sebagian besar chatbot hanya dilatih pada data lama dan tidak tahu peristiwa terkini.
+- Isu Keamanan: Banyak demo chatbot tidak memiliki sistem autentikasi yang layak.
+- UI yang Membosankan: Antarmuka chat seringkali kaku dan tidak menarik secara visual.
+
+
+SLIDE 4: SOLUSI KAMI - NEUGA AI
+==================================================
+Neuga AI hadir dengan terobosan:
+1. Integrasi Web Search Real-Time: Menggabungkan kecerdasan DeepSeek LLM dengan hasil pencarian langsung dari DuckDuckGo.
+2. Keamanan Terjamin: Sistem login dan registrasi penuh untuk melindungi akses pengguna.
+3. User Experience Premium: Desain Glassmorphism yang modern dan responsif.
+
+
+SLIDE 5: FITUR UTAMA - INTELEGENSI & BAHASA
+==================================================
+- Real-Time Knowledge: AI dapat menjawab pertanyaan tentang berita hari ini, cuaca, atau harga saham terkini.
+- Adaptasi Bahasa Otomatis:
+  User: "Siapa presiden Indonesia sekarang?" (Indonesian)
+  Bot: "Presiden Indonesia saat ini adalah Prabowo Subianto..." (Menjawab dalam Indonesia)
+- Markdown Rendering: Jawaban diformat rapi dengan bold, list, dan code block.
+
+
+SLIDE 6: FITUR BARU - SISTEM AUTENTIKASI
+==================================================
+Kami telah meningkatkan keamanan aplikasi secara signifikan:
+- Landing Page: Halaman sambutan yang profesional.
+- User Registration: Pengguna baru dapat mendaftar dengan email dan password.
+- Secure Login: Akses aman menggunakan Session Management (Flask-Login).
+- Database MySQL: Penyimpanan data user yang handal dan terstruktur.
+
+
+SLIDE 7: TEKNOLOGI DI BALIK LAYAR
+==================================================
+Frontend:
+- HTML5, CSS3 (Glassmorphism Theme), Vanilla JavaScript.
+- Library: FontAwesome, Google Fonts (Outfit), Marked.js.
+
+Backend:
+- Bahasa: Python 3.8+
+- Framework: Flask
+- Database: MySQL (dengan SQLAlchemy ORM)
+- AI Engine: DeepSeek API (via OpenAI SDK)
+- Search Engine: DuckDuckGo Search
+
+
+SLIDE 8: ARSITEKTUR KOMUNIKASI
+==================================================
+[User] -> [Landing/Login Page] -> [Auth Middleware] -> [Chat Interface]
+                                          |
+                                          v
+[Input Pesan] -> [Flask Server] -> [DuckDuckGo Search] -> [DeepSeek API]
+                                          |
+                                          v
+[Respon Terformat] <- [AI Processing] <- [Search Context + Prompt]
+
+
+SLIDE 9: DEMONSTRASI FITUR
+==================================================
+Di dalam demo ini, kami akan menunjukkan:
+1. Mendaftar akun baru di halaman Register.
+2. Login ke dalam sistem.
+3. Bertanya tentang "Berita terkini hari ini" untuk membuktikan kemampuan real-time.
+4. Melihat antarmuka yang responsif dan animasi background.
+
+
+SLIDE 10: KESIMPULAN
+==================================================
+Neuga AI bukan sekadar chatbot biasa. Ini adalah asisten cerdas yang:
+- Tahu apa yang terjadi di dunia SEKARANG.
+- Aman digunakan dengan sistem akun personal.
+- Nyaman dipandang dengan desain modern.
+
+Terima Kasih.
+==================================================

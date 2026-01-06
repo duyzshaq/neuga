@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - Neuga AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+    </div>
+
+    <div class="page-container">
+        <header class="chat-header glass-panel">
+            <a href="/" style="text-decoration: none;">
+                <div class="logo">
+                    <i class="fa-solid fa-brain"></i>
+                    <h1>Neuga<span class="highlight">AI</span></h1>
+                </div>
+            </a>
+            <div class="status-indicator">
+                <span class="dot"></span> Online
+            </div>
+        </header>
+
+        <main class="content-panel">
+            <a href="/" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Chat</a>
+
+            <h1 class="page-title">Why Choose Neuga AI?</h1>
+            <p class="page-subtitle">Experience the next generation of conversational AI.</p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-globe"></i></div>
+                    <h3 class="feature-title">Real-Time Knowledge</h3>
+                    <p>Unlike traditional bots, Neuga AI can search the web to provide up-to-the-minute answers about
+                        current events, sports scores, and more.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-language"></i></div>
+                    <h3 class="feature-title">Multi-Language Support</h3>
+                    <p>Speak naturally. Neuga AI automatically detects your language and responds fluently, whether it's
+                        Indonesian, English, or any other major language.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3 class="feature-title">Smart Coding Assistant</h3>
+                    <p>Need help debugging? Neuga AI processes code snippets and provides formatted, syntax-highlighted
+                        solutions.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <h3 class="feature-title">Modern Design</h3>
+                    <p>Enjoy a distraction-free experience with our premium Glassmorphism interface, designed for
+                        clarity and aesthetic pleasure.</p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <a href="/features" style="color: var(--primary-color);">Features</a>
+            <span class="footer-divider">|</span>
+            <a href="/about">About Us</a>
+            <span class="footer-divider">|</span>
+            <a href="/privacy">Privacy Policy</a>
+        </footer>
+    </div>
+</body>
+
+</html>

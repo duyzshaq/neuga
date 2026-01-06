@@ -2,3 +2,7 @@ flask
 openai
 python-dotenv
 duckduckgo-search
+flask-sqlalchemy
+flask-login
+pymysql
+cryptography

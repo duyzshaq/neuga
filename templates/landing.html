@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuga AI - The Future of Conversation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+    </div>
+
+    <div class="page-container" style="justify-content: space-between; height: 100vh; overflow: hidden;">
+        <nav class="landing-nav glass-panel">
+            <div class="logo">
+                <i class="fa-solid fa-brain"></i>
+                <h1>Neuga<span class="highlight">AI</span></h1>
+            </div>
+            <div class="nav-links">
+                <a href="/features">Features</a>
+                <a href="/about">About</a>
+                <a href="/login" class="nav-btn-secondary">Login</a>
+                <a href="/register" class="nav-btn-primary">Get Started</a>
+            </div>
+        </nav>
+
+        <main class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Experience <span class="gradient-text">Intelligent</span><br>Conversations</h1>
+                <p class="hero-subtitle">
+                    Neuga AI combines advanced language models with real-time internet search to provide answers that
+                    are not just smart, but current.
+                </p>
+                <div class="hero-cta">
+                    <a href="/register" class="cta-btn primary big">Start Chatting Now <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                    <a href="/features" class="cta-btn secondary big">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="chat-preview glass-panel">
+                    <div class="message user">
+                        <div class="message-content">Who won the latest F1 race?</div>
+                    </div>
+                    <div class="message bot">
+                        <div class="message-content">
+                            <p>According to the latest results from <strong>2025</strong>...</p>
+                        </div>
+                    </div>
+                    <div class="typing-indicator">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <a href="/features">Features</a>
+            <span class="footer-divider">|</span>
+            <a href="/about">About Us</a>
+            <span class="footer-divider">|</span>
+            <a href="/privacy">Privacy Policy</a>
+            <span class="footer-copyright">&copy; 2026 Neuga AI. All rights reserved.</span>
+        </footer>
+    </div>
+</body>
+
+</html>
