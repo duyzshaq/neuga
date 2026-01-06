@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuga AI Chat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+    </div>
+
+    <div class="app-container">
+        <header class="chat-header glass-panel">
+            <div class="logo">
+                <i class="fa-solid fa-brain"></i>
+                <h1>Neuga<span class="highlight">AI</span></h1>
+            </div>
+            <div class="status-indicator">
+                <span class="dot"></span> Online
+            </div>
+        </header>
+
+        <main class="chat-area glass-panel">
+            <div id="welcome-message" class="welcome-container">
+                <div class="welcome-icon">
+                    <i class="fa-solid fa-sparkles"></i>
+                </div>
+                <h2>Hello! How can I help you today?</h2>
+                <p>I'm powered by Neuga API. Ask me anything.</p>
+            </div>
+
+            <div id="chat-history" class="chat-history">
+                <!-- Messages will appear here -->
+            </div>
+
+            <div class="typing-indicator hidden" id="typing-indicator">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </main>
+
+        <footer class="input-area glass-panel">
+            <form id="chat-form" onsubmit="return false;">
+                <div class="input-wrapper">
+                    <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off">
+                    <button type="submit" id="send-btn">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </div>
+            </form>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
